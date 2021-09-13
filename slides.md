@@ -41,6 +41,7 @@ See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?qu
 
 * More products, more users, more instances: We suffer from our own success :)
 * Hardware-related administration work hinders software development
+* The new SUSE IT ticket system adds multiple obstacles
 
 </small>
 
