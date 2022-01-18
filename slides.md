@@ -4,14 +4,14 @@
 
 <small>
 
-* From [resolved tasks](https://progress.opensuse.org/issues?query_id=541), 204 tickets total:
- * 32 feature requests, 52 bugs, 109 infrastructure + other
- * Improved performance in multiple places (10-50% faster)
- * Reduced SPOFs, distribute administration
- * Added multi-group overview pages and single-page reports
- * [Debian](https://openqa.debian.net/) and [GNOME](https://openqa.gnome.org/) now use openQA
+* From [resolved tasks](https://progress.opensuse.org/issues?query_id=541), 242 tickets total:
+ * 24% feature requests, 26% bugs, 28% infrastructure, 22% other
+ * Improvements to SUSE maintenance workflows
+ * Scale up (existing instances; [poo#64746](https://progress.opensuse.org/issues/64746))
+ * Ease review ([#39719](https://progress.opensuse.org/issues/39719))
+ * New open source project [qem-dashboard](https://github.com/openSUSE/qem-dashboard)
 * From [monitor dashboard](https://monitor.qa.suse.de/):
- * Availability of OSD 99.6%, median job age 37m
+ * Availability of OSD 99.1%, enough capacity
 * Workshop series
 
 </small>
@@ -22,10 +22,10 @@
 
 <small>
 
-* Improve SUSE Maintenance QA workflows ([poo#91646](https://progress.opensuse.org/issues/91646))
-* Scale out (new instances, new products, new datacenter; [poo#80142](https://progress.opensuse.org/issues/80142))
-* Scale up (existing instances; [poo#64746](https://progress.opensuse.org/issues/64746))
-* Ease review ([#39719](https://progress.opensuse.org/issues/39719))
+* (old) Improve SUSE Maintenance QA workflows ([poo#91646](https://progress.opensuse.org/issues/91646))
+* (old) Scale out (new instances, new products, new datacenter; [poo#80142](https://progress.opensuse.org/issues/80142))
+* Full version control awareness within openQA ([poo#58184](https://progress.opensuse.org/issues/58184))
+* Integration of new hardware in PRG location into OSD infra ([poo#100455](https://progress.opensuse.org/issues/100455))
 
 See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?query_id=524) for reference
 
@@ -39,9 +39,8 @@ See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?qu
 
 <small>
 
-* More products, more users, more instances: We suffer from our own success :)
-* Hardware-related administration work hinders software development
-* The new SUSE IT ticket system adds multiple obstacles
+* The new SUSE IT ticket system adds multiple obstacles (but situation has improved)
+* Unclear commitment of personell
 
 </small>
 
@@ -50,10 +49,9 @@ See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?qu
 
 <small>
 
-* Additional redundancy for O3 PPC
-* Rest of workers needing replacement (nearly all current hardware out of maintenance)
-* SSD storage for O3 would improve user experience
-* Increase number of CPU cores for OSD VM
+* (unchanged) Additional redundancy for O3 PPC
+* (unchanged) Rest of workers needing replacement (nearly all current hardware out of maintenance)
+* (unchanged) SSD storage for O3 would improve user experience
 
 See https://progress.opensuse.org/projects/openqav3/wiki/#openQA-infrastructure-needs-o3-osd
 for reference
