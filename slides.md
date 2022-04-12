@@ -4,15 +4,14 @@
 
 <small>
 
-* From [resolved tasks](https://progress.opensuse.org/issues?query_id=541), 242 tickets total:
- * 24% feature requests, 26% bugs, 28% infrastructure, 22% other
- * Improvements to SUSE maintenance workflows
- * Scale up (existing instances; [poo#64746](https://progress.opensuse.org/issues/64746))
- * Ease review ([#39719](https://progress.opensuse.org/issues/39719))
- * New open source project [qem-dashboard](https://github.com/openSUSE/qem-dashboard)
+* From [resolved tasks](https://progress.opensuse.org/issues?query_id=541), 206 tickets total:
+ * 18% feature requests (-), 23% bugs (=), 32% infrastructure (+), 26% other (+)
+ * Much more reactive work, multiple network related issues, e.g. [poo#102882](https://progress.opensuse.org/issues/102882)
+ * General maintenance, e.g. [#99183](https://progress.opensuse.org/issues/99183)
+ * Focus on Maintenance QA tasks ([poo#91646](https://progress.opensuse.org/issues/91646))
 * From [monitor dashboard](https://monitor.qa.suse.de/):
- * Availability of OSD 99.1%, enough capacity
-* Workshop series
+ * Availability of OSD 99.1%, unchanged, enough capacity
+* Workshop series, unbroken success
 
 </small>
 
@@ -22,10 +21,10 @@
 
 <small>
 
-* (old) Improve SUSE Maintenance QA workflows ([poo#91646](https://progress.opensuse.org/issues/91646))
+* (old) Conclude: Improve SUSE Maintenance QA workflows ([poo#91646](https://progress.opensuse.org/issues/91646))
 * (old) Scale out (new instances, new products, new datacenter; [poo#80142](https://progress.opensuse.org/issues/80142))
-* Full version control awareness within openQA ([poo#58184](https://progress.opensuse.org/issues/58184))
-* Integration of new hardware in PRG location into OSD infra ([poo#100455](https://progress.opensuse.org/issues/100455))
+* Stable and updated non-qemu backends for SLE validation ([poo#109668](https://progress.opensuse.org/issues/109668))
+* Easy multi-machine handling: MM-tests as first-class citizens ([poo#103962](https://progress.opensuse.org/issues/103962))
 
 See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?query_id=524) for reference
 
@@ -39,8 +38,8 @@ See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?qu
 
 <small>
 
-* The new SUSE IT ticket system adds multiple obstacles (but situation has improved)
-* Unclear commitment of personell
+* [SUSE Nbg network quality is deteriorating](https://progress.opensuse.org/issues/109250)
+* Limited team capacity
 
 </small>
 
@@ -50,7 +49,7 @@ See [QE tools team - backlog, top-level](https://progress.opensuse.org/issues?qu
 <small>
 
 * (unchanged) Additional redundancy for O3 PPC
-* (unchanged) Rest of workers needing replacement (nearly all current hardware out of maintenance)
+* (unchanged) Rest of workers needing replacement (nearly all current hardware out of maintenance) but we do not have the personell capacity
 * (unchanged) SSD storage for O3 would improve user experience
 
 See https://progress.opensuse.org/projects/openqav3/wiki/#openQA-infrastructure-needs-o3-osd
